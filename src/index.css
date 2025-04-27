@@ -3,6 +3,34 @@
 @import "tailwindcss";
 
 @theme {
+  --color-primary-50: #fff8e1;
+  --color-primary-75: #ffefb3;
+  --color-primary-100: #ffe680;
+  --color-primary-150: #ffdd4d;
+  --color-primary-200: #ffd21a;
+  --color-primary-250: #ffc400;
+  --color-primary-300: #ffb300;
+  --color-primary-350: #ffa000;
+  --color-primary-400: #ff8f00;
+  --color-primary-500: #ff6f00;
+  --color-primary-600: #e66400;
+  --color-primary-700: #cc5900;
+  --color-primary-800: #b34f00;
+  --color-primary-900: #994400;
+  --color-primary-1000: #803a00;
+  --color-primary-1100: #662f00;
+  --color-primary-1200: #4d2400;
+  --color-primary-1300: #331a00;
+  --color-primary-1400: #1a0d00;
+  --color-primary-1500: #120900;
+
+  --font-sans: "Poppins", sans-serif;
+
+  --color-primary-glow: rgba(255, 111, 0, 0.3); /* fiery orange glow */
+  --color-primary-50-glow: rgba(255, 248, 225, 0.2);
+}
+
+/* @theme {
   --color-primary-50: #ecfcfd;
   --color-primary-75: #dafafa;
   --color-primary-100: #c7f7f8;
@@ -28,7 +56,7 @@
 
   --color-primary-glow: rgba(68, 229, 231, 0.2);
   --color-primary-50-glow: rgba(236, 252, 253, 0.2);
-}
+} */
 
 .bg-gradient-to-bottom {
   @apply bg-[url('../src/assets/Noise.webp'),linear-gradient(to_bottom,var(--color-primary-1500),var(--color-primary-1300))] bg-repeat;
